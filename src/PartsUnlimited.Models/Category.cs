@@ -6,9 +6,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
+    // Cambio 2 
+    // Otro cambio
     public class Category
     {
         public int CategoryId { get; set; }
+        // Otro cambio
 
         [Required]
         public string Name { get; set; }

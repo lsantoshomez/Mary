@@ -13,7 +13,7 @@ namespace PartsUnlimited.Models
     {
         public int CategoryId { get; set; }
         // Otro cambio
-
+        // Verificar con el archivo del servidro
         [Required]
         public string Name { get; set; }
 

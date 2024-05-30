@@ -4,3 +4,7 @@ jobs:
     steps:
       - name: Greet someone
         run: echo "Hello ${{ inputs.who-to-greet }}"
+    steps:   
+      - name: Set time
+        id: time
+        run: echo "time=$(date)" >> $GITHUB_OUTPUT

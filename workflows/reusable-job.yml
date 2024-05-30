@@ -8,3 +8,5 @@ jobs:
       - name: Set time
         id: time
         run: echo "time=$(date)" >> $GITHUB_OUTPUT
+   outputs:
+      current-time: ${{ steps.time.outputs.time }}
